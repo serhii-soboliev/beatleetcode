@@ -26,11 +26,11 @@ int main() {
     Solution s;
     vector<int> vect{ 2,7,11,15 };
 
-    vector<int> res = s.twoSum(vect, 26);
-
+    vector<int> res = s.twoSum(vect, 18);
        
-    for(int i=0; i < res.size(); i++)
+    for(int i=0; i < res.size(); i++) {
         std::cout << res.at(i) << ' ';
+    }
     
     return 0;
 }
